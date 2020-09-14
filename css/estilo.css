@@ -1,0 +1,370 @@
+/*Configurações gerais*/
+html, body{
+    margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+/*Configurações de link*/
+.link{
+    text-decoration: none;
+    color: tomato;
+}
+.oquee a:hover{
+    box-shadow: 1px 2px 50px 50px #4d4b4b;
+    
+}
+.motivos a:hover{
+        
+        background-color: forestgreen;
+        color: white;
+}
+#pobreza1 a:hover{
+    color: tomato;
+    background-color: forestgreen;
+    color: white;
+}
+/*Fim Configurações de link*/
+.justificado{
+    justify-content: center;
+}
+
+body{
+    width: 100%;
+    background-image: url(../b_imagens/fundo-verde2.png);
+}
+/* Fim Configurações gerais*/
+
+/*Inicio menu*/
+#menu-principal{
+    height:105px;
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100%;
+   
+}
+
+.list-menu{
+    margin-top: 2% ; margin-right: 4%; margin-bottom:2% ;
+    float: right;
+    position: fixed;
+    left: 70%;
+    list-style: none;
+    width: 100%;
+   
+    
+    display: flex;
+}
+
+.list-menu a{
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
+}
+  
+.list-menu a:hover{
+    transition: 0.3s;
+    background: aquamarine;
+    padding:42px 10px 46px 10px;
+    color: black;
+    
+}
+
+#menu-principal img{
+    
+    display: flex;
+    float: left;
+    position: fixed;
+    right: 60%;
+
+}
+
+.capa img{
+    width: 100%;
+}/*Fim menu*/
+
+/*Inicio capa*/
+.capa{
+    background-image:url(../b_imagens/rio-morro.jpg);
+    min-height: 100vh;
+    background-size: cover;
+
+    color: rgb(255, 255, 108);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.capa h1{
+    font-size: 40px;
+    max-width: 500px;
+    text-shadow: 5px 1px 5px black;
+    margin-bottom: 0;
+    
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 1px solid black;
+    text-align: center;
+    text-shadow: 5px 1px 5px black;
+}/*Fim capa*/
+
+/*Inicio da introdução*/
+#pobreza1,#pobreza2{
+    color: black;
+    font-size: 20px;
+}
+
+#pobreza1 h2{
+    font-size: 35px;
+    
+}
+
+.oquee{
+     display: block;
+     float: left;
+     text-align: left;
+     justify-content: left;
+     box-shadow:  1px 0px 10px 2px #4d4b4b;
+     max-width: 32%;
+     min-height: 513px;
+     background-color: whitesmoke;
+     margin: 0.5% 0 1% 0.5%;
+     align-items: left;
+}
+.oquee h2{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+}
+.oquee p{
+ margin-top: 1px;
+ margin-bottom: 0px;
+}
+
+.oquee figure{
+    margin: 0px;  
+}
+
+.motivos{
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    min-height: 510px;
+    display: block;
+    float: right;
+    margin: 0.5% 1.5% 0 0;
+    box-shadow: 1px 0px 10px 2px #4d4b4b;
+    background-color: whitesmoke;
+    
+}
+
+.motivos h2{
+    margin: 10px 20px;
+    
+}
+
+.precisamos{
+    
+    margin:0.5% 0 0 0.7%;
+    width:520px;
+    height: 513px;
+    display:block;
+    float: left;
+    box-shadow: 1px 0px 10px 2px #4d4b4b;
+    background-color: rgb(59, 109, 180);
+    justify-content: center;
+    
+}
+
+/*Fim da introdução*/
+
+/*Inicio do desenvolvimento*/
+#pobreza2{
+  display: block;
+  float: left;
+  text-align: center;
+}
+.card-metas{
+    border: solid 1px red;
+    max-height: 100%;
+    min-width: 100%;
+    background-color: whitesmoke;
+    display:block;
+    float: left;
+}
+.card-metas p{
+    margin-top: 0px;
+}
+.cards{
+        max-width: 350px;
+        max-height: 400px;
+        border:solid red 1px;
+        display:inline-block;
+        margin: 1%;
+}
+.card1{
+    max-width: 350px;
+    min-height: 360px;
+    float: left;
+    margin: 0% 5% 2% 6%;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    background-color: rgb(255, 255, 198) ;
+    border-radius: 10px;
+}
+.card1 p{
+    padding:7% 0 0 0 ;
+}
+.card1 p:hover{
+    color: rgb(0 128 128);
+}
+.card2{
+    max-width: 350px;
+    min-height: 360px;  
+    float: left;
+    margin: 0% 5% 2% 0%;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card2 p{
+    padding:7% 0 0 0 ;
+}
+.card2 p:hover{
+    color: rgb(0 128 128);
+}
+.card3{
+    max-width: 350px;
+    min-height: 360px;
+    float: left;
+    margin: 0% 5% 2% 0%;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card3 p{
+    padding:7% 0 0 0 ;
+}
+.card3 p:hover{
+    color: rgb(0 128 128);
+}
+.card4{
+    max-width: 350px;
+    min-height: 360px;
+    margin-bottom: 2%;
+    float: left;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card4 p{
+    padding:1% 0 0 0 ;
+}
+.card4 p:hover{
+    color: rgb(0 128 128);
+}
+.card5{
+    max-width: 350px;
+    min-height: 455px;
+    float: left;
+    margin: 0% 5% 1% 18%;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card5 p{
+    padding:7% 0 0 0 ;
+}
+.card5 p:hover{
+    color: rgb(0 128 128);
+}
+.card6{
+    max-width: 350px;
+    min-height: 455px;
+    float: left;
+    margin: 0% 5% 1% 0%;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card6 p{
+    padding:0.5% 0 0 0 ;
+}
+.card6 p:hover{
+    color: rgb(0 128 128);
+}
+.card7{
+    max-width: 350px;
+    min-height: 455px;
+    float: left;
+    margin: 0% 5% 1% 0%;
+    background-color: rgb(255, 255, 198) ;
+    box-shadow: 1px 0px 10px 2px rgb(149, 0, 0);
+    border-radius: 10px;
+}
+.card7 p{
+    padding:7% 0 0 0 ;
+}
+.card7 p:hover{
+    color: rgb(0 128 128);
+}
+/*Fim do desenvolvimento*/
+
+/*Conclusão*/
+
+/* FimConclusão*/
+
+/*Inicio de reponsividade*/
+@media all and (max-width:768px){
+    /*Header*/
+    .list-menu{
+        visibility: hidden;
+    }
+.menu-principal{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.list-menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.oquee{
+    max-width: 100%;
+}
+#pobreza2{
+    max-width: 100%;
+    margin:0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-metas{
+    max-width: 100%;
+    margin:0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    margin-left:1%;
+}
+
+.card5{
+    margin-left:1% ;
+}
+}
+/*FIm de reponsividade*/
